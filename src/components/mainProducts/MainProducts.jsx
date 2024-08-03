@@ -1,7 +1,11 @@
 import React from "react";
-// import Links from "../links/Links";
 
 import MainProduct from "../mainProduc/MainProduct";
+
+import bg1 from "../../assets/main-product/flip-6.avif";
+import bg2 from "../../assets/main-product/samsung-tv.avif";
+import bg3 from "../../assets/main-product/samsung-home.avif";
+import bg4 from "../../assets/main-product/samsung-tv-oled.jpg";
 
 const data = [
   {
@@ -14,7 +18,7 @@ const data = [
       "Galaxy Buds3 Pro",
       "Galaxy Experience",
     ],
-    bg: "src/assets/main-product/flip-6.avif",
+    bg: bg1,
     name: "Galaxy Z Flip6",
     discount:
       "Get up to $650 instant trade-in credit and double the storage on us with select colors.",
@@ -24,7 +28,7 @@ const data = [
     id: 2,
     title: "TV & Audio",
     links: ["Samsung Neo QLED 8K", "TV + Soundbar bundles", "Q990D"],
-    bg: "src/assets/main-product/samsung-tv.avif",
+    bg: bg2,
     name: "Discover new depths of detail",
     discount:
       "Buy an 85” Class Samsung Neo QLED QN800D and take in hyper-realistic picture with Neo Quantum HDR 8K+.",
@@ -34,7 +38,7 @@ const data = [
     id: 3,
     title: "Home Appliances",
     links: ["Bespoke Appliances", "Bespoke Refrigeretors", "Bespoke Loundry"],
-    bg: "src/assets/main-product/samsung-home.avif",
+    bg: bg3,
     name: "Save on Bespoke all summer",
     discount:
       "Get up to $1,300 off select Bespoke models from America's #1 appliance brand.",
@@ -48,7 +52,7 @@ const data = [
       "Certified Re-Newed",
       "How to recycle",
     ],
-    bg: "src/assets/main-product/samsung-tv-oled.jpg",
+    bg: bg4,
     name: "Trade-in and save up to $100",
     discount: "We'll deliver your new TV and recycle your old TV for you.",
     clr: "black",
@@ -56,14 +60,6 @@ const data = [
 ];
 
 const MainProducts = () => {
-  // const links = [
-  //   "For You",
-  //   "Top Deals",
-  //   "Mobile",
-  //   "TV&Audio",
-  //   "Home Appliances",
-  //   "Computing",
-  // ];
   return (
     <section className="bg-[#F4F4F4]">
       <div className="main-products">
